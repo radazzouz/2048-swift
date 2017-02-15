@@ -1,12 +1,28 @@
 PODS:
+  - Alamofire (4.3.0)
   - BuddyBuildSDK (1.0.12)
+  - PromiseKit (4.0.5):
+    - PromiseKit/Foundation (= 4.0.5)
+    - PromiseKit/QuartzCore (= 4.0.5)
+    - PromiseKit/UIKit (= 4.0.5)
+  - PromiseKit/CorePromise (4.0.5)
+  - PromiseKit/Foundation (4.0.5):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.0.5):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.0.5):
+    - PromiseKit/CorePromise
 
 DEPENDENCIES:
+  - Alamofire
   - BuddyBuildSDK
+  - PromiseKit
 
 SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
   BuddyBuildSDK: f4682598772ae66c9ef5554d2d78d0a19fb413a0
+  PromiseKit: 593b5e24ded6cbb1ebc708bc2c3428a8a5632d91
 
-PODFILE CHECKSUM: e808b1946dafb7ff8cee5cb6a5a51c6bd55461a1
+PODFILE CHECKSUM: 144b1f194b95023f8d953f880eef811d469efbf8
 
-COCOAPODS: 1.2.0.beta.1
+COCOAPODS: 1.2.0
