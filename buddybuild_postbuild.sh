@@ -63,3 +63,5 @@
 #echo "Uploading to Fabric via command line"
 #FABRIC_API_KEY=4e398883f5a51079e0cfd9aa715683d57ac5a235
 #$BUDDYBUILD_WORKSPACE/Pods/Fabric/upload-symbols -a $FABRIC_API_KEY -p ios $BUDDYBUILD_PRODUCT_DIR 
+
+echo $BUDDYBUILD_PRODUCT_DIR
