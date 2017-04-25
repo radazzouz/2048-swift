@@ -65,3 +65,7 @@
 #$BUDDYBUILD_WORKSPACE/Pods/Fabric/upload-symbols -a $FABRIC_API_KEY -p ios $BUDDYBUILD_PRODUCT_DIR 
 
 echo $BUDDYBUILD_PRODUCT_DIR
+
+cd $BUDDYBUILD_PRODUCT_DIR
+
+echo $(find . -name '*.app')
