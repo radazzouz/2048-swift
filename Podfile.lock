@@ -1,11 +1,11 @@
 PODS:
-  - BuddyBuildSDK (1.0.15)
+  - BuddyBuildSDK (1.0.16)
 
 DEPENDENCIES:
   - BuddyBuildSDK
 
 SPEC CHECKSUMS:
-  BuddyBuildSDK: b3038125612b1ad389c2aa89e4787dcb75cac89a
+  BuddyBuildSDK: 2c5469eee2981a3365386e46393e97068d75e4f4
 
 PODFILE CHECKSUM: e808b1946dafb7ff8cee5cb6a5a51c6bd55461a1
 
